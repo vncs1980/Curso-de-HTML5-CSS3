@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+         header{
+            background-color: white;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        nav > a {
+            text-decoration: none;
+            color: black;
+            margin-right: 280px;
+            margin-left: 10px;
+           
+        }
+        nav > a:hover{
+            text-decoration: underline;
+            color: rgb(110, 110, 110);
+            
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(5, 132, 251);
+        }
+       
+        h1{
+            text-align: center;
+            color: blue;
+            margin-top: 1px;
+        }
+        main{
+            background-color: white;
+        }
+        footer{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+            background-color: white;
+            margin: 5px 1px;
+            padding-top: 2px ;
+            padding-bottom: 2px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="titulo">Meu Site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article>
+                <h2>Título</h2>
+                <p>texto do artigo</p>
+            </article>
+            <article>
+                <h2>Título</h2>
+                <p>Texto do artigo</p>
+                <aside>
+                    conteúdo periférico do aside
+                </aside>
+            </article>
+        </section>
+        <aside>
+            Conteúdo periférico do site
+        </aside>
+    </main>
+    <footer>
+        Produzido VITE digital S.A
+    </footer>
+</body>
+</html>
